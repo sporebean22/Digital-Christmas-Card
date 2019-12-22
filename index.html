@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+
+<!--https://picsum.photos/ -->
+<!--https://source.unsplash.com/ -->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="Style/style.css" rel="stylesheet" type="text/css" />
+    <script src="Logic/script.js"> </script> 
+    <script src="Logic/ImageMgmt.js"> </script> 
+    <script src="Logic/ApiRequest.js"> </script> 
+    <script data-consolejs-channel="0df43e1e-5320-e8f4-006f-53857f42ba97"src="https://remotejs.com/agent/agent.js"></script>
+  </head> 
+
+  <body>
+      <div id="screen">
+        <img id="image" src='Style/Images/Candle.png'>
+          <br>
+          <!--<img src="snow.gif" alt="Sn0w" width=250/> -->
+            <pre id="christmasmessage"> Merry 0 Christmas </pre>
+              <pre id="name"> </pre>
+                  <input id="input" size="22" maxlength="40" size="4" placeholder='please enter your name'/> 
+                  <button id="button"onclick="RecieveUsersName()">Submit</button>
+                    <button id="reset" class="SButtons" onclick="reset()">Reset</button>
+                    <button id="RandomImage" onclick="GetImage()">Random image</button>
+  </body>
+</html>
