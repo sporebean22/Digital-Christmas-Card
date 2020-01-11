@@ -102,6 +102,7 @@ body
 {
   font-size: 75px;
   font-family: 'Merry Christmas Color';
+  position: relative;
   background: solid white;
   color: white;
   text-shadow: 0px 0px 0 red,
@@ -132,8 +133,8 @@ body
 
 #image
 {
-  /*background-image: url('https://i.pinimg.com/originals/8c/e3/58/8ce35810ba8433626e5d2f34d89e334c.png');*/
-  border: 5px solid white;
+  /*border: 5px solid white;*/
+  margin: 0px, 1500px, 0px, 0px ;
   width: 950px;
   height: 500px;
   position: absolute;
@@ -153,8 +154,7 @@ body
   position: relative;
 }
 
-#RandomI
-mage
+#RandomImage
 {
   position: relative;
 }
