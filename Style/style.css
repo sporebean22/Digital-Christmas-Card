@@ -1,7 +1,3 @@
-*
-{
-  border-color: red;
-}
 
 @font-face 
 {
@@ -30,6 +26,7 @@ input
   font-family: Monospace;
   margin-top: 15px;
   margin-left: 50px;
+  position: relative;
   display: inline-block;
 }
 
@@ -40,6 +37,7 @@ button
   border: 1px solid white;
   font-family: Monospace;
   margin: 15 0 0 50;
+  position: relative;
   display: inline-block;
 }
 
@@ -138,6 +136,7 @@ body
   border: 5px solid white;
   width: 950px;
   height: 500px;
+  position: absolute;
   background-repeat: no-repeat;
 }
 
@@ -147,4 +146,15 @@ body
   width:100%;
   overflow:hidden;
   position: fixed;
+}
+
+#reset
+{
+  position: relative;
+}
+
+#RandomI
+mage
+{
+  position: relative;
 }

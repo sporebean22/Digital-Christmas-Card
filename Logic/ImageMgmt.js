@@ -13,12 +13,11 @@ function GetImage()
   for(i = 0; i < 2 ; i++)
   {
     Display(location + images[i])
-    if (i == 1)
+    if (i == 2)
     {
       i - 1
     }
+    console.log(location + images[i]);
   }
-
-  console.log(location + images[0]);
 }
 
