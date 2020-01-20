@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="Style/style.css" rel="stylesheet" type="text/css" />
-    <script src="Logic/script.js"> </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gulp/3.8.5/gulp.min.js"></script>
+<script src="Logic/script.js"> </script> 
     <script src="Logic/ImageMgmt.js"> </script> 
     <script src="Logic/ApiRequest.js"> </script> 
     <script data-consolejs-channel="0df43e1e-5320-e8f4-006f-53857f42ba97"src="https://remotejs.com/agent/agent.js"></script>
@@ -25,7 +26,7 @@
                   <input id="input" size="22" maxlength="40" size="4" placeholder='please enter your name'/> 
                   <button id="button"onclick="RecieveUsersName()">Submit</button>
                     <button id="reset" class="SButtons" onclick="reset()">Reset</button>
-                    <button id="RandomImage" onclick="GetImage()">Random image</button>
+                    <button id="RandomImage" onclick="ImageRequest()">Random image</button>
                     <div>
   </body>
 </html>

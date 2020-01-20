@@ -133,8 +133,8 @@ body
 
 #image
 {
-  /*border: 5px solid white;*/
-  margin: 0px, 1500px, 0px, 0px ;
+  border: 5px solid green;
+  padding-right: 2500;
   width: 950px;
   height: 500px;
   position: absolute;
