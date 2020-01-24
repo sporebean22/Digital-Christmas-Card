@@ -8,16 +8,22 @@ function Display(source)
 function GetImage()
 {
   var images = ['Biscuit.jpg', 'Candle.jpg'];
+  var i = 0;
 
-  const location = 'Style/Images/';
-  for(i = 0; i < 2 ; i++)
+  document.getElementById("RandomImageButton").addEventListener('click', i => 
   {
-    Display(location + images[i])
-    if (i == 2)
-    {
-      i - 1
-    }
-    console.log(location + images[i]);
+    i++;
+    console.log(i.detail)
+  }, false)
+  
+  if (i >= 2)
+  {
+    i - 2
   }
+      
+  const location = 'Style/Images/';
+  var test = (location + images[i]);
+  Display(test); 
+  console.log(test); 
 }
 

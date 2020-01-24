@@ -18,3 +18,4 @@ const minifyFunction = function (src)
 }
 
 gulp.task('minify', minifyFunction);
+

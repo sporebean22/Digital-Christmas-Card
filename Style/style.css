@@ -8,6 +8,8 @@
     font-style: italic;
 }
 
+
+
 @font-face 
 {
     font-family: 'Waving at Christmas';
@@ -39,6 +41,12 @@ button
   margin: 15 0 0 50;
   position: relative;
   display: inline-block;
+}
+
+ #SButtons
+{
+  position: relative;
+  padding-left: 1250px;
 }
 
 body 
@@ -102,6 +110,7 @@ body
 {
   font-size: 75px;
   font-family: 'Merry Christmas Color';
+  padding-left: 1250px;
   position: relative;
   background: solid white;
   color: white;
@@ -133,8 +142,7 @@ body
 
 #image
 {
-  border: 5px solid green;
-  padding-right: 2500;
+  background-image: url('https://i.pinimg.com/originals/8c/e3/58/8ce35810ba8433626e5d2f34d89e334c.png');
   width: 950px;
   height: 500px;
   position: absolute;
@@ -146,7 +154,7 @@ body
   height:100%;
   width:100%;
   overflow:hidden;
-  position: fixed;
+  position: static;
 }
 
 #reset
